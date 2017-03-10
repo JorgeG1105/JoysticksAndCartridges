@@ -1,0 +1,146 @@
+﻿html {
+   background: #B8B4B2 linear-gradient(#FFFFFF, #B8B4B2);
+   background-repeat: no-repeat;
+   font-family: "Berlin sans FB", sans-serif; 
+   height: 100%;
+}
+/*------------------------------------------------------------------------------------
+                    MAINLINKS, TOPNAV AND CSS AWARDS STYLING
+------------------------------------------------------------------------------------*/
+#logo {
+   height: 64px;
+   background-color: #252424;
+   background-attachment: scroll;
+   background-origin: padding-box;
+   background-clip: border-box;
+   background-size: auto auto;
+   overflow: hidden;
+   top: 0px;
+   left: 0px;
+   opacity: 0.8;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   position: fixed;
+}
+#topnav {
+   width: 1000px;
+
+}
+
+
+#topnav p {
+   margin-top: 0px;
+   margin-bottom: 0px;
+   color: white;
+   font-size: 3em;
+   float: left;
+}
+
+#main-links {
+   padding-top: 10px;
+}
+
+
+
+#main-links a {
+   margin: 10px;
+   margin-top: 0px;
+   color: #ffffff;
+   text-decoration: none;
+   font-size: 1em;
+   
+}
+
+#main-links li {
+   float: left;
+}
+
+#main-links ul {
+   overflow: hidden;
+   list-style-type:none;
+   float:right;
+}
+
+#main-links a:hover {
+   color: #C73232;
+   text-decoration: blink;
+   transition: all 1.5s;
+   
+}
+
+#CSS-awards {
+   float: right;
+   margin-top: 50px;
+   
+}
+
+/*-------------------------------------------------------------------------------
+                              CONTENT STYLING
+-------------------------------------------------------------------------------*/
+#Content-wrap{
+   overflow: hidden;
+}
+
+a {
+   color: #C73232;
+}
+
+section {
+   margin-left: 30px;
+   margin-top: 50px;
+   margin-right: 0px;
+   width: 800px;
+   float: left;
+
+}
+
+section h1 {
+   color: #57595C;
+}
+
+section h2 {
+   color: #C73232;
+}
+
+#extra-links {
+   float: right;
+   margin-top: 200px;
+}
+
+#extra-links a {
+   color: #57595C;
+   text-decoration: none;
+}
+
+#extra-links a:hover {
+   color: #C73232;
+   transition: all 1.5s;
+}
+
+#extra-links p {
+   font-size: 1.5em;
+   text-decoration: underline;
+}
+
+#extra-links ul {
+   list-style-type: none;
+   margin-right: 30px;
+   font-size: 1em;
+}
+
+footer {
+   background-color: #252424;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   position: fixed;
+   bottom: 0;
+}
+
+footer p {
+   margin: 15px 0 15px 0;
+   font-size: 2em;
+   color: #ffffff;
+   text-align: center;
+}

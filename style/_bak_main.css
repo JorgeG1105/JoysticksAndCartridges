@@ -1,0 +1,127 @@
+﻿html {
+   background: #B8B4B2 linear-gradient(#FFFFFF, #B8B4B2);
+   height: 100%;
+   background-repeat: no-repeat;
+}
+/*------------------------------------------------------------------------------------
+                    MAINLINKS, TOPNAV AND CSS AWARDS STYLING
+------------------------------------------------------------------------------------*/
+#logo {
+   height: 64px;
+}
+#topnav {
+   background-color: black;
+   background-attachment: scroll;
+   background-origin: padding-box;
+   background-clip: border-box;
+   background-size: auto auto;
+   overflow: hidden;
+   top: 0px;
+   left: 0px;
+   opacity: 0.8;
+   width: 1280px;
+   position: fixed;
+
+}
+
+
+#topnav p {
+   margin-top: 0px;
+   margin-bottom: 0px;
+   color: white;
+   font-size: 3em;
+   font-family: Berlin sans FB, sans serif;
+   float: left;
+}
+
+#main-links {
+   padding-left: 800px;
+   padding-top: 10px;
+}
+
+
+
+#main-links li a {
+   float: left;
+   margin: 5px;
+   margin-top: 0px;
+   color: white;
+   text-decoration: none;
+   font-family: Berlin sans FB, sans serif;
+   font-size: 1em;
+   
+}
+
+#main-links a:hover {
+   color: #C73232;
+   text-decoration: blink;
+   transition: all 1.5s;
+   
+}
+
+#CSS-awards {
+   float: right;
+   
+}
+
+/*-------------------------------------------------------------------------------
+                              CONTENT STYLING
+-------------------------------------------------------------------------------*/
+a {
+   color: #C73232;
+}
+
+section {
+   margin-left: 30px;
+   margin-right: 300px;
+   margin-bottom: 169px;
+}
+section h1 {
+   color: #57595C;
+}
+
+section h2 {
+   color: #C73232;
+}
+
+section p {
+   font-family: Berlin sans FB, sans serif;
+}
+
+#extra-links a {
+   color: #57595C;
+   font-family: Berlin sans FB, sans serif;
+   text-decoration: none;
+}
+
+#extra-links a:hover {
+   color: #C73232;
+   transition: all 1.5s;
+}
+
+#CSS-awards p {
+   font-family: Berlin sans FB, sans serif;
+   font-size: 1.5em;
+   text-decoration: underline;
+}
+
+#extra-links ul {
+   list-style-type: none;
+   margin-right: 30px;
+   font-size: 1em;
+}
+
+footer {
+   background-color: #252424;
+   width: 1280px;
+   position: fixed;
+   bottom: 0;
+}
+
+footer p {
+   margin: 15px 0 15px 0;
+   font-family: Berlin sans FB, sans serif;
+   font-size: 2em;
+   color: white;
+   text-align: center;
+}
